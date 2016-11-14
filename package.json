@@ -1,0 +1,27 @@
+{
+  "name": "mkp-react-native-picker",
+  "version": "1.0.2",
+  "description": "cross platform picker for Ios and Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonkeyKingPlus/react-native-picker.git"
+  },
+  "keywords": [
+    "reactnative",
+    "picker",
+    "cross-platform"
+  ],
+  "author": "youkaisteve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonkeyKingPlus/react-native-picker/issues"
+  },
+  "homepage": "https://github.com/MonkeyKingPlus/react-native-picker#readme",
+  "dependencies": {
+    "react-native-wheel": "^1.1.3"
+  }
+}

@@ -2,6 +2,8 @@
 Cross platform picker for IOS and Android.
 It is based on PickerIOS for IOS while [react-native-wheel](https://github.com/shexiaoheng/react-native-wheel) for android.
 
+![Image](doc/android.gif) ![Image](doc/ios.gif)
+
 # Guide
 ## npm install
     $ npm i mkp-react-native-picker --save
