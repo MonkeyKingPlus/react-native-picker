@@ -1,4 +1,6 @@
 # react-native-picker
+<!-- badge -->
+<!-- endbadge -->
 Cross platform picker for IOS and Android.
 It is based on PickerIOS for IOS while [react-native-wheel](https://github.com/shexiaoheng/react-native-wheel) for android.
 
