@@ -1,5 +1,10 @@
 # react-native-picker
 <!-- badge -->
+[![travis status](https://img.shields.io/travis/MonkeyKingPlus/react-native-picker.svg)](https://travis-ci.org/MonkeyKingPlus/react-native-picker)
+[![npm version](https://img.shields.io/npm/v/mkp-react-native-picker.svg)](https://www.npmjs.com/package/mkp-react-native-picker)
+[![npm license](https://img.shields.io/npm/l/mkp-react-native-picker.svg)](https://www.npmjs.com/package/mkp-react-native-picker)
+[![npm download](https://img.shields.io/npm/dm/mkp-react-native-picker.svg)](https://www.npmjs.com/package/mkp-react-native-picker)
+[![npm download](https://img.shields.io/npm/dt/mkp-react-native-picker.svg)](https://www.npmjs.com/package/mkp-react-native-picker)
 <!-- endbadge -->
 Cross platform picker for IOS and Android.
 It is based on PickerIOS for IOS while [react-native-wheel](https://github.com/shexiaoheng/react-native-wheel) for android.
