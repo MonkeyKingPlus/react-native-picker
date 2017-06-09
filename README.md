@@ -127,7 +127,7 @@ It is based on PickerIOS for IOS while [react-native-wheel](https://github.com/s
 Key | Type | Required | Default | Description
 --- | ---- | -------- | ------- | -----------
 options | array | yes | | must be an array of key-value pairs,like {key:1,value:'option'}
-lang | string | no | 'zh-CN' | enums:'zh-CN','en-US',indicate the language of the text in buttons
+lang | string | no | 'zh-CN' | enums:'zh-CN','en-US','es-AR',indicate the language of the text in buttons
 style | object | no | {backgroundColor: "white"} | 
 defaultSelectedValue | any | no |  | key of each option,if undefined, the first option will be selected
 onConfirm | function | no | | option that be selected as the parameter
