@@ -21,7 +21,20 @@ const options = [{
 }, {
     key: 3,
     value: "Option3"
+}]
+
+const another_options = [{
+    key: 1,
+    value: "OptionA"
+}, {
+    key: 2,
+    value: "OptionB"
+}, {
+    key: 3,
+    value: "OptionC"
 }];
+
+const optionsGroup = [options, another_options]
 
 export default class Picker extends BaseComponent {
     constructor(props) {
@@ -29,6 +42,7 @@ export default class Picker extends BaseComponent {
         this.state = {
             selected: ''
         }
+        this.optionsGroupIndex = 0
     }
 
     render() {
@@ -43,6 +57,15 @@ export default class Picker extends BaseComponent {
 
             <View style={{height:50,justifyContent:'center'}}><Text>You have
                 selected {this.state.selected}</Text></View>
+
+            <TouchableOpacity
+                style={{height:30,flexDirection:'row',justifyContent:'center',alignItems:'center',backgroundColor:'red'}}
+                onPress={()=>{
+                    this.optionsGroupIndex = Math.abs(this.optionsGroupIndex - 1)
+                    this.singlePicker.setOption(optionsGroup[this.optionsGroupIndex]);
+                }}>
+                <Text>Switch Options</Text>
+            </TouchableOpacity>
 
             <SinglePicker
                 lang="en-US"

@@ -1,6 +1,6 @@
 {
   "name": "mkp-react-native-picker",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "cross platform picker for Ios and Android",
   "main": "index.js",
   "scripts": {
