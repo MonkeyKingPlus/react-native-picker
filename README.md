@@ -9,6 +9,12 @@
 Cross platform picker for IOS and Android.
 It is based on PickerIOS for IOS while [react-native-wheel](https://github.com/shexiaoheng/react-native-wheel) for android.
 
+**Attention**
+
+```
+Npm will not update,because the account of npm is lost. 
+The account belongs to my teammate and the team is gone. I feel very sorry for that! Sorry again!
+```
 ![Image](doc/android.gif) ![Image](doc/ios.gif)
 
 # Guide
