@@ -19,7 +19,7 @@ The account belongs to my teammate and the team is gone. I feel very sorry for t
 
 # Guide
 ## npm install
-    $ npm i mkp-react-native-picker --save
+    $ npm i https://github.com/MonkeyKingPlus/react-native-picker.git --save
 ## Update Gradle Settings
     // file: android/settings.gradle
     ...
@@ -125,6 +125,7 @@ export default class Picker extends BaseComponent {
             </TouchableOpacity>
 
             <SinglePicker
+                style={{justifyContent: 'flex-end', backgroundColor: 'white'}}
                 lang="en-US"
                 ref={ref=>this.singlePicker=ref}
                 onConfirm={(option)=>{
