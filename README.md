@@ -36,6 +36,8 @@ The account belongs to my teammate and the team is gone. I feel very sorry for t
 ## Register React Package
     // file: android/src/main/java/com.xx/MainApplication.java
     ...
+
+    import com.heng.wheel.WheelPackage;
     
     private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
         @Override
