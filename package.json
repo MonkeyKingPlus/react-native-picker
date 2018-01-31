@@ -20,7 +20,7 @@
     "url": "https://github.com/MonkeyKingPlus/react-native-picker/issues"
   },
   "homepage": "https://github.com/MonkeyKingPlus/react-native-picker#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react-native-wheel": "git+https://github.com/SudoPlz/react-native-wheel.git"
   }
 }

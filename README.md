@@ -19,6 +19,7 @@ The account belongs to my teammate and the team is gone. I feel very sorry for t
 
 # Guide
 ## npm install
+    $ npm i https://github.com/SudoPlz/react-native-wheel.git --save
     $ npm i https://github.com/MonkeyKingPlus/react-native-picker.git --save
 ## Update Gradle Settings
     // file: android/settings.gradle
