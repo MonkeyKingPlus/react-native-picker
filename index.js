@@ -1,1 +1,1 @@
-module.exports = require('./lib/SinglePicker.js');
+module.exports = require('./lib/singlePicker.js');

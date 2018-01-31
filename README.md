@@ -19,7 +19,8 @@ The account belongs to my teammate and the team is gone. I feel very sorry for t
 
 # Guide
 ## npm install
-    $ npm i mkp-react-native-picker --save
+    $ npm i https://github.com/SudoPlz/react-native-wheel.git --save
+    $ npm i https://github.com/MonkeyKingPlus/react-native-picker.git --save
 ## Update Gradle Settings
     // file: android/settings.gradle
     ...
@@ -36,6 +37,8 @@ The account belongs to my teammate and the team is gone. I feel very sorry for t
 ## Register React Package
     // file: android/src/main/java/com.xx/MainApplication.java
     ...
+
+    import com.heng.wheel.WheelPackage;
     
     private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
         @Override
@@ -123,6 +126,7 @@ export default class Picker extends BaseComponent {
             </TouchableOpacity>
 
             <SinglePicker
+                style={{justifyContent: 'flex-end', backgroundColor: 'white'}}
                 lang="en-US"
                 ref={ref=>this.singlePicker=ref}
                 onConfirm={(option)=>{
@@ -146,7 +150,7 @@ export default class Picker extends BaseComponent {
 Key | Type | Required | Default | Description
 --- | ---- | -------- | ------- | -----------
 options | array | yes | | must be an array of key-value pairs,like {key:1,value:'option'}
-lang | string | no | 'zh-CN' | enums:'zh-CN','en-US','es-AR',indicate the language of the text in buttons
+lang | string | no | 'zh-CN' | enums:'zh-CN','en-US','es-AR','ja-JP' indicate the language of the text in buttons
 style | object | no | {backgroundColor: "white"} | 
 defaultSelectedValue | any | no |  | key of each option,if undefined, the first option will be selected
 onConfirm | function | no | | option that be selected as the parameter
