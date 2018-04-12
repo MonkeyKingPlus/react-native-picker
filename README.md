@@ -151,12 +151,11 @@ Key | Type | Required | Default | Description
 --- | ---- | -------- | ------- | -----------
 options | array | yes | | must be an array of key-value pairs,like { key: 1, value: 'option' }
 lang | string | no | 'zh-CN' | enums:'zh-CN','en-US','es-AR','ja-JP' indicate the language of the text in buttons
-style | object | no | {backgroundColor: "white"} | 
+style | object | no | {backgroundColor: "white"} | modal container style
 defaultSelectedValue | any | no |  | key of each option,if undefined, the first option will be selected
 onConfirm | function | no | | option that be selected as the parameter
 onSelect | function | no | | option that be selected as the parameter
 onCancel | function | no | |     
-style | object | no | modal container style
 headerStyle | object | no | |
 headerButtonStyle | object | no | |
 buttonCancelStyle | object | no | |
